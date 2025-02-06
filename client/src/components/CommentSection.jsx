@@ -79,10 +79,7 @@ export default function CommentSection({ postId }) {
           </Link>
         </div>
       )}
-    
-
-
-{//new comment }
+  
 
   
       {currentUser && (
