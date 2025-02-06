@@ -75,10 +75,16 @@ export default function CommentSection({ postId }) {
           You must be signed in to comment.
           <Link className='text-blue-500 hover:underline' to={'/sign-in'}>
             Sign In
+
           </Link>
         </div>
       )}
     
+
+
+{//new comment }
+
+  
       {currentUser && (
         <form
           onSubmit={handleSubmit}
